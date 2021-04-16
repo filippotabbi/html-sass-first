@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1:hover {
+  display: none;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+* {
+  margin: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+}
+
+li {
+  list-style: none;
+  text-decoration: underline;
+}
