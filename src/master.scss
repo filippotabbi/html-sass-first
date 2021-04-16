@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1:hover {
+  display: none;
+}
+
+$primarycolor: lightgrey;
+$margin : 20px;
+$center : center;
+$padbutton: 10px 15px;
+
+body{
+  background-color: $primarycolor;
+}
+*{
+  margin: $margin;
+  text-align: $center;
+}
+button{
+  padding: $padbutton;
+}
+li{
+  list-style: none;
+  text-decoration: underline;
+}
